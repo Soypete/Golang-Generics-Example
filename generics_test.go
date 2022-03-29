@@ -96,9 +96,9 @@ func Test_makePhone(t *testing.T) {
 			wantErr: fmt.Errorf("invalid phone number"),
 		},
 		{
-			name: "test3",
-			data: "405-555-1234",
-			want: "405-555-1234",
+			name:  "test3",
+			data:  "405-555-1234",
+			want1: "405-555-1234",
 		},
 		{
 			name: "test4",
