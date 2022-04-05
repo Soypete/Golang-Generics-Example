@@ -38,6 +38,9 @@ func main() {
 	var lv list[user]
 	n1 := lv.add(user{name: "John", company: "Google"})
 	n2 := lv.add(user{name: "Jane", company: "Facebook"})
+
+	// TODO: add people from the meetup
+
 	fmt.Println(n1.Data, n2.Data)
 	fmt.Println(lv)
 }
